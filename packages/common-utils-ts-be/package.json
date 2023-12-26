@@ -1,6 +1,6 @@
 {
 	"name": "@gmahechas/common-utils-ts-be",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "common-utils-ts-be",
 	"author": "gmahechas",
 	"license": "ISC",
@@ -38,6 +38,6 @@
 		"typescript": "5.3.3"
 	},
 	"publishConfig": {
-    "access": "public"
-  }
+		"access": "public"
+	}
 }
