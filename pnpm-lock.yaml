@@ -24,9 +24,6 @@ importers:
         specifier: 4.18.2
         version: 4.18.2
     devDependencies:
-      '@gmahechas/common-devtools-ts-be':
-        specifier: 0.0.8
-        version: 0.0.8(typescript@5.3.3)
       '@types/express':
         specifier: 4.17.21
         version: 4.17.21
@@ -40,9 +37,6 @@ importers:
         specifier: 9.0.1
         version: 9.0.1
     devDependencies:
-      '@gmahechas/common-devtools-ts-be':
-        specifier: 0.0.8
-        version: 0.0.8(typescript@5.3.3)
       '@types/uuid':
         specifier: 9.0.7
         version: 9.0.7
