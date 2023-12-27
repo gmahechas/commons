@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@gmahechas/common-devtools-ts-be':
-        specifier: 0.0.8
-        version: 0.0.8(typescript@5.3.3)
+        specifier: 0.0.11
+        version: 0.0.11(@gmahechas/common-typescript-ts-be@5.3.3)(typescript@5.3.3)
       lerna:
         specifier: 8.0.0
         version: 8.0.0
@@ -275,12 +275,15 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@gmahechas/common-devtools-ts-be@0.0.8(typescript@5.3.3):
-    resolution: {integrity: sha512-dFuu+21thEJSmqBqATSSx+/y7xr+xZlzCWr2b+ShoSznNHyjv60i0w/ubU8hVBnrVftLY7OpOsmWfYYpLxFCig==}
+  /@gmahechas/common-devtools-ts-be@0.0.11(@gmahechas/common-typescript-ts-be@5.3.3)(typescript@5.3.3):
+    resolution: {integrity: sha512-kstDKCmrHi07DEWnj7fXuVqQpPuIuXyDrrvoaGs4HXJ+9L5Rmb+vldoShEIdBokFF5h5tSwbpPeLZVSX+pMWog==}
     hasBin: true
+    peerDependencies:
+      '@gmahechas/common-typescript-ts-be': 5.3.3
     dependencies:
       '@commitlint/cli': 18.4.3(typescript@5.3.3)
       '@commitlint/config-conventional': 18.4.3
+      '@gmahechas/common-typescript-ts-be': 5.3.3
       '@types/eslint': 8.56.0
       '@types/lint-staged': 13.3.0
       '@typescript-eslint/eslint-plugin': 6.14.0(@typescript-eslint/parser@6.14.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -304,7 +307,6 @@ packages:
     dependencies:
       '@types/node': 20.10.4
       typescript: 5.3.3
-    dev: false
 
   /@humanwhocodes/config-array@0.11.13:
     resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
@@ -924,7 +926,6 @@ packages:
     resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
     dependencies:
       undici-types: 5.26.5
-    dev: false
 
   /@types/node@20.10.5:
     resolution: {integrity: sha512-nNPsNE65wjMxEKI93yOP+NPGGBJz/PoN3kZsVLee0XMiJolxSekEVD8wRwBUBqkwc7UWop0edW50yrCQW4CyRw==}
